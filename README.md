@@ -71,10 +71,10 @@ Below is an example snippet from `FiskCity_XMAS_detail.txt` and how we will want
 ```
 // [texture name]       [detail texture name]            [hscale] [vscale]
 
-{LilItaly-Romeo		 detail/mapname/LilItaly-Romeo	  1       1
-{pkf_shopgrate1		 detail/mapname/pkf_shopgrate1	  1       1
--0silo2_p1               detail/mapname/-0silo2_p1        1       1
--1silo2_p1               detail/mapname/-1silo2_p1        1       1
+{LilItaly-Romeo		 detail/fiskcity/LilItaly-Romeo	  1       1
+{pkf_shopgrate1		 detail/fiskcity/pkf_shopgrate1	  1       1
+-0silo2_p1               detail/fiskcity/-0silo2_p1        1       1
+-1silo2_p1               detail/fiskcity/-1silo2_p1        1       1
 ```
 
 With your texture names copied, prompt ChatGPT with your full list and how it should be formatted for example:
