@@ -14,6 +14,7 @@ Clone this repo and download the latest version of chaiNNer.
 ##### Step #2 - Open Template
 
 Next we'll get chaiNNer ready for processing our textures, which we don't have just yet.
+
 **Note: Download all dependencies that it requires upon opening the template file!*
 
 - Open up `chaiNNer.exe`
