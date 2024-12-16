@@ -91,7 +91,7 @@ And format it like this list, where any name starting with { remove in the secon
 // [texture name]       [detail texture name]            [hscale] [vscale]
 
 {texture1		detail/mapname/texture1	          1       1
--texture2		detail/mapname/-texture2	      1       1
+-texture2		detail/mapname/-texture2	  1       1
 +texture3               detail/mapname/+texture3          1       1
 texture4                detail/mapname/texture4           1       1
 ```
