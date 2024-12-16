@@ -71,8 +71,8 @@ Below is an example snippet from `FiskCity_XMAS_detail.txt` and how we will want
 ```
 // [texture name]       [detail texture name]            [hscale] [vscale]
 
-{LilItaly-Romeo		     detail/mapname/LilItaly-Romeo	  1       1
-{pkf_shopgrate1		     detail/mapname/pkf_shopgrate1	  1       1
+{LilItaly-Romeo		 detail/mapname/LilItaly-Romeo	  1       1
+{pkf_shopgrate1		 detail/mapname/pkf_shopgrate1	  1       1
 -0silo2_p1               detail/mapname/-0silo2_p1        1       1
 -1silo2_p1               detail/mapname/-1silo2_p1        1       1
 ```
@@ -90,8 +90,8 @@ texture4
 And format it like this list, where any name starting with { remove in the second column:
 // [texture name]       [detail texture name]            [hscale] [vscale]
 
-{texture1		        detail/mapname/texture1	          1       1
--texture2		        detail/mapname/-texture2	      1       1
+{texture1		detail/mapname/texture1	          1       1
+-texture2		detail/mapname/-texture2	      1       1
 +texture3               detail/mapname/+texture3          1       1
 texture4                detail/mapname/texture4           1       1
 ```
@@ -112,7 +112,7 @@ Open up your game and load up the map, make sure you have `r_detailtextures 1` a
 alias +toggledetail "r_detailtextures 0";alias -toggledetail "r_detailtextures 1";bind i +toggledetail
 ```
 
-### Final Giveaway
+### Final Takeaway
 For any textures that are incorrectly embossed, use the inverted texture that you generated prior and replace it in your `gfx\detail\mapname\` directory, restart game.
 To make changes to how sharp or powerful the details are, you'll want to mess with the `Normal Map Generator` settings in **chaiNNer** and regenerate them, again with and without inverting the `G` channel.
 
