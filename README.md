@@ -1,6 +1,6 @@
 ### Automated Detail Texture Creation Guide
 
-##### Step #1 - Download chaiNNer
+#### Step #1 - Download chaiNNer
 
 chaiNNer is a node-based image processing GUI that we'll use to upscale and generate normal maps to be used for detail textures.
 
@@ -11,7 +11,7 @@ Clone this repo and download the latest version of chaiNNer.
 - Download this repo as a zip
 - Download latest version of chaiNNer
 
-##### Step #2 - Open Template
+#### Step #2 - Open Template
 
 Next we'll get chaiNNer ready for processing our textures, which we don't have just yet.
 
@@ -22,7 +22,7 @@ Next we'll get chaiNNer ready for processing our textures, which we don't have j
 
 Here you will see the flow for batch processing all of the textures we're going to prepare in the next step.
 
-##### Step #3 - Exporting WAD Textures
+#### Step #3 - Exporting WAD Textures
 
 For this method I used J.A.C.K.'s built-in texture exporter to generate a full WAD of any BSP, this will gather all used textures into a single WAD making it easier to extract from. There may be other programs that can do this
 
@@ -41,7 +41,7 @@ For this method I used J.A.C.K.'s built-in texture exporter to generate a full W
 
 These are the raw textures that we'll use with **chaiNNer**
 
-##### Step #4 - Generation Time
+#### Step #4 - Generation Time
 
 Now back to chaiNNer.
 
@@ -55,7 +55,7 @@ We're not quite done yet however, some textures may appear inverted such as bric
 - Back to the last node `Save Image`, in the `Subdirectory Path` enter: `Inverted`
 - **Run** the generation again
 
-##### Step #4 - Detail Text File
+#### Step #5 - Detail Text File
 
 This part is the more tedious section where each texture requires a line in a text file with their associated file name, thankfully we have more AI to use.
 
@@ -98,7 +98,7 @@ texture4                detail/mapname/texture4           1       1
 
 This should output correctly, textures with `{` which are for masked textures can't be read from as is in-game, so be sure to remove the `{` of the actual name of the detail texture file.
 
-##### Step #5 - Final Step
+#### Step #6 - Final Step
 
 Lastly if you haven't already, put all of your detail texture files into your game/mod directory, for example The Specialists:
 `..\steamapps\common\Half-Life\ts\gfx\detail\mapname\`
@@ -106,13 +106,13 @@ Lastly if you haven't already, put all of your detail texture files into your ga
 - Copy the output from ChatGPT to a new text file called `mapname_detail.txt`
 - Place in `steamapps\common\Half-Life\ts\maps\` or use `ts_downloads\maps\`
 
-##### Step #6 - Profit
+#### Step #7 - Profit
 Open up your game and load up the map, make sure you have `r_detailtextures 1` and for a quick bind to see before and after:
 ```
 alias +toggledetail "r_detailtextures 0";alias -toggledetail "r_detailtextures 1";bind i +toggledetail
 ```
 
-##### Final Giveaway
+#### Final Giveaway
 For any textures that are incorrectly embossed, use the inverted texture that you generated prior and replace it in your `gfx\detail\mapname\` directory, restart game.
 To make changes to how sharp or powerful the details are, you'll want to mess with the `Normal Map Generator` settings in **chaiNNer** and regenerate them, again with and without inverting the `G` channel.
 
