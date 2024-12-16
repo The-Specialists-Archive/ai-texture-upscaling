@@ -14,6 +14,7 @@ Clone this repo and download the latest version of chaiNNer.
 ##### Step #2 - Open Template
 
 Next we'll get chaiNNer ready for processing our textures, which we don't have just yet.
+**Note: Download all dependencies that it requires upon opening the template file!*
 
 - Open up `chaiNNer.exe`
 - File > Open > `Half-Life_BatchUpscaler.chn`
@@ -94,7 +95,7 @@ And format it like this list, where any name starting with { remove in the secon
 texture4                detail/mapname/texture4           1       1
 ```
 
-This should output correctly, textures withh `{` which are for masked textures can't be read from as is in-game, so be sure to remove the `{` of the actual name of the detail texture file.
+This should output correctly, textures with `{` which are for masked textures can't be read from as is in-game, so be sure to remove the `{` of the actual name of the detail texture file.
 
 ##### Step #5 - Final Step
 
