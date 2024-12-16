@@ -3,7 +3,7 @@
 ##### Step #1 - Download chaiNNer
 
 chaiNNer is a node-based image processing GUI that we'll use to upscale and generate normal maps to be used for detail textures.
-[![chaiNNer Releases](https://github.com/The-Specialists-Archive/ai-texture-upscaling/blob/main/chaiNNER_Files/banner_chainner.png)](https://github.com/chaiNNer-org/chaiNNer/releases)
+[![chaiNNer Releases](https://github.com/The-Specialists-Archive/ai-texture-upscaling/blob/main/Guide_Images/banner_chainner.png?raw=true)](https://github.com/chaiNNer-org/chaiNNer/releases)
 Clone this repo and download the latest version of chaiNNer.
 
 - Download this repo as a zip
@@ -23,9 +23,12 @@ Here you will see the flow for batch processing all of the textures we're going 
 For this method I used J.A.C.K.'s built-in texture exporter to generate a full WAD of any BSP, this will gather all used textures into a single WAD making it easier to extract from. There may be other programs that can do this
 
 - Download [J.A.C.K.](https://jack.hlfx.ru/en/download.html) to utilize their texture extraction tool
+![jack_guide](https://github.com/The-Specialists-Archive/ai-texture-upscaling/blob/main/Guide_Images/jack_guide.png?raw=true)
 - Use **Wally** that's included in this repo to open up your newly created WAD
 - Select/highlight all of the textures in Wally
+![wally1_guide](https://github.com/The-Specialists-Archive/ai-texture-upscaling/blob/main/Guide_Images/wally1_guide.png?raw=true)
 - Package > Export Selected
+![wally2_guide](https://github.com/The-Specialists-Archive/ai-texture-upscaling/blob/main/Guide_Images/wally2_guide.png?raw=true)
 
 These are the raw textures that we'll use with **chaiNNer**
 
