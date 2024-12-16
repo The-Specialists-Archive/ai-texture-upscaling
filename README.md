@@ -71,8 +71,8 @@ Below is an example snippet from `FiskCity_XMAS_detail.txt` and how we will want
 ```
 // [texture name]       [detail texture name]            [hscale] [vscale]
 
-{LilItaly-Romeo		 detail/fiskcity/LilItaly-Romeo	  1       1
-{pkf_shopgrate1		 detail/fiskcity/pkf_shopgrate1	  1       1
+{LilItaly-Romeo		 detail/fiskcity/LilItaly-Romeo	   1       1
+{pkf_shopgrate1		 detail/fiskcity/pkf_shopgrate1	   1       1
 -0silo2_p1               detail/fiskcity/-0silo2_p1        1       1
 -1silo2_p1               detail/fiskcity/-1silo2_p1        1       1
 ```
